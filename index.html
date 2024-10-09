@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- swiper -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- icones -->
+        <link rel="stylesheet" href="assets/style.css">
+
+        <!-- fontes -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        
+        <title>Dr. Lucas Barros</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="container ">
+                <a class="logo" href="#">Lucas<span>Barros</span>.</a>
+                <!-- MENU -->
+                <div class="menu">
+                    <ul class="grid">
+                        <li><a class="title" href="#home">Inicio</a></li>
+                        <li><a class="title" href="#about">Essence</a></li>
+                        <li><a class="title" href="#casos">Casos</a></li>
+                        <li><a class="title" href="#testemonials">Depoimentos</a></li>
+                        <li><a class="title" href="#services">Serviços</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- /menu-->
+                <div class="toggle icon-menu"></div>
+                <div class="toggle icon-close"></div>
+            </nav>
+        </header>
+        
+        <main>
+
+            <!--- seção home--->
+            <section id="home" class="section">
+                <div class="container grid">
+                    <div class="image">
+                        <img src="views/foto principal LucasB.jpg" alt="Doutor Lucas" srcset="">
+                    </div>
+                    <div class="text">
+                        <h2 class="title">Cirurgião Dentista.</h2>
+                        <p class="subtitle">
+                            <ul>
+                                <li>
+                                    Graduação faculdades São Lucas
+                                </li>
+                                <li>
+                                    Prof Graduação - Metropolitana
+                                </li>
+                                <li>
+                                    Esp. Protese - facsete/ SOEP
+                                </li>
+                                <li>
+                                    Esp. Implantodontia - Facsete/SOEP
+                                </li>
+                                <li>
+                                    Prof esp. Prótese/dentistica - Facsete/SOEP
+                                </li>
+                                <li>
+                                    Prof esp. Reab oral brasileiros - Facsete/SOEP
+                                </li>
+                                <li>Prof esp. Reab oral para estrangeiros - Facsete/SOEP
+                                </li>
+                                <li>Sócio fundador do Instituto cirúrgico Barros - ICB</p></li>
+                            </ul>
+                        <a class="button" href="#contacts">Agendar um horário</a> 
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-1"></div>
+
+            <!--seção sobre -->
+            <section id="about" class="section">
+                <div class="container grid">
+                    <div class="image">
+                        <img src="views/clinica.jpg" alt="Implantes Dentarios">
+                    </div>
+                    <div class="text">
+                        <h2 class="title" >
+                            <p class="essence">Essence</p>
+                        </h2>
+                        <p>Aos poucos vou realizando cada pedacinho do meu sonho.
+                            Isso vai incomodar algumas pessoas, porque na verdade, querem lhe ver bem, porém, nunca melhor que elas.
+                            </p>
+                        <br>
+                        <p>Respeite seu processo, sua curva de aprendizado, não perca a humildade e principalmente, aproveite cada etapa!</p>
+                        <br>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-2"></div>
+
+            <!-- seção serviços-->
+           
+            <div class="carrossel" id="casos">
+
+                <div class="container">
+                    <header>
+                        <h2 class="title">
+                            Casos
+                        </h2>
+                        <p>
+                            Com mais de 3 anos no mercado, <strong>Essence</strong> ja conquistou
+                                clientes em inúmeros estados com seus tratamentos!
+                            </p>
+                </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+                }
+                .carousel {
+                    position: relative;
+                    width: 300px;
+                    height: 200px;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                }
+                .carousel img {
+                    width: 100%;
+                    height: auto;
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: opacity 0.5s ease;
+                }
+                .active {
+                    display: block;
+                    opacity: 1;
+                }
+                .thumbnails {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                }
+                .thumbnails img {
+                    width: 500px;
+                    height: auto;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    opacity: 1;
+                    transition: opacity 0.3s;
+                }
+                .thumbnails img.active {
+                    opacity: 0;
+                }
+
+                
+                .carousel2 {
+                    position: relative;
+                    width: 300px;
+                    height: 200px;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                }
+                .carousel2 img {
+                    width: 100%;
+                    height: auto;
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: opacity 0.5s ease;
+                }
+                .active2 {
+                    display: block;
+                    opacity: 1;
+                }
+                .thumbnails2 {
+                    margin-top: -334px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .thumbnails2 img {
+                    width: 500px;
+                    height: auto;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    opacity: 1;
+                    transition: opacity 0.3s;
+                }
+                .thumbnails2 img.active {
+                    opacity: 1;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="carousel">
+                <img class="active" src="views/depois proto" alt="Foto 1">
+                <img src="views/depois proto.jpg" alt="Foto 2">
+                <img src="views/depois proto.avif" alt="Foto 3">
+                
+            </div>
+            <div class="carousel2">
+                <img class="active" src="views/antes proto.jpg" alt="Foto 1">
+                <img src="views/antes proto.jpg" alt="Foto 2">
+                <img src="views/antes proto.jpg" alt="Foto 3">
+                
+            </div>
+            <div class="container-tumb">
+                <div class="thumbnails">
+                    <img class="active" src="views/antes proto.jpg" alt="Foto 1" onclick="showSlide(0)">
+                    <img src="views/antes proto.jpg" alt="Foto 2" onclick="showSlide(1)">
+                    <img src="views/antes proto.jpg" alt="Foto 3" onclick="showSlide(2)">
+                    
+                    
+                    
+                    <button class="passar" onclick="nextSlide()">Próximo</button>
+                    
+                </div> 
+                <div class="thumbnails2">
+                    <img class="active" src="views/depois proto.jpg" alt="Foto 1" onclick="showSlide(0)">
+                    <img src="views/depois proto.jpg" alt="Foto 2" onclick="showSlide(1)">
+                    <img src="views/depois proto.jpg" alt="Foto 3" onclick="showSlide(2)">
+                </div>
+            </div>
+            
+            
+            
+            <style>
+                
+                button.passar {
+                    
+                    position: absolute;
+                    width: 200px;
+                    height: 50px;
+                    align-items: center;
+                    color: rgb(0, 0, 0);
+                    margin-top: 310px;
+                }
+                </style>
+        
+            <script>
+                let currentIndex = 0;
+                const slides = document.querySelectorAll('.carousel img');
+                const thumbnails = document.querySelectorAll('.thumbnails img');
+                
+                function showSlide(index) {
+                    slides[currentIndex].classList.remove('active');
+                    thumbnails[currentIndex].classList.remove('active');
+                    currentIndex = index;
+                    slides[currentIndex].classList.add('active');
+                    thumbnails[currentIndex].classList.add('active');
+                }
+        
+                function nextSlide() {
+                    showSlide((currentIndex + 1 + slides.length) % slides.length);
+                }
+               
+
+                let startX;
+                
+    const carousel = document.querySelector('.carousel');
+    
+    carousel.addEventListener('touchstart', (event) => {
+        startX = event.touches[0].clientX; // Captura a posição inicial do toque
+    });
+
+    carousel.addEventListener('touchmove', (event) => {
+        const moveX = event.touches[0].clientX; // Captura a posição do movimento
+        const diffX = startX - moveX; // Calcula a diferença
+
+        // Se o deslize for significativo, impede o movimento padrão
+        if (Math.abs(diffX) > 50) {
+            event.preventDefault();
+        }
+    });
+
+    carousel.addEventListener('touchend', (event) => {
+        const endX = event.changedTouches[0].clientX; // Captura a posição final do toque
+        const diffX = startX - endX; // Calcula a diferença
+
+        if (diffX > 50) {
+            nextSlide(); // Deslizar para a esquerda
+        } else if (diffX < -50) {
+            prevSlide(); // Deslizar para a direita
+        }
+    });
+    </script>
+        </body>
+        
+</div>
+        
+        
+        <section id="testemonials" class="section">
+                <div class="container">
+                    <header>
+                        <h2 class="title">
+                        Depoimentos de quem já passou por aqui
+                        </h2>
+                    </header>
+
+                    <div class="testimonials swiper">
+                        <div class="swiper-wrapper">
+                            <!-- testemunho 1 -->
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                 <p>
+                                 <span>&ldquo;</span>
+                                 Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados. 
+                                 </p>
+                                 <cite>
+                                     <img src="views/Wanessa souza.jpg" alt="Wanessa">
+                                     Wanessa Souza
+                                 </cite>
+                            </blockquote>
+                         </div>
+ 
+                         <!-- testemunho 2 -->
+                         <div class="testimonial swiper-slide">
+                             <blockquote>
+                                 <p>
+                                 <span>&ldquo;</span>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                 Quis dolorum fugit labore magnam perferendis, eveniet, optio maiores vel ad doloribus architecto pariatur natus harum! 
+                                 Qui minima facere accusantium iure harum.
+                                 </p>
+                                 <cite>
+                                     <img src="views/Franciele Venega.jpg" alt="Franciele">
+                                     Franciele Venega
+                                 </cite>
+                            </blockquote>
+                         </div>
+ 
+                         <!-- testemunho 3 -->
+                         <div class="testimonial swiper-slide">
+                             <blockquote>
+                                 <p>
+                                 <span>&ldquo;</span>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                 Quis dolorum fugit labore magnam perferendis, eveniet, optio maiores vel ad doloribus architecto pariatur natus harum! 
+                                 Qui minima facere accusantium iure harum.
+                                 </p>
+                                 <cite>
+                                     <img src="views/Valesca Franis.jpg" alt="Valesca">
+                                     Valesca Franis
+                                 </cite>
+                            </blockquote>
+ 
+                            <!-- final -->
+                         </div>
+
+                        </div>
+
+                        <!-- paginação -->
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-1"></div>
+            
+        <section id="services" class="section">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">
+                        Serviços
+                    </h2>
+                    <p>
+                        Com mais de 3 anos no mercado, <strong>Essence</strong> ja conquistou
+                            clientes em inúmeros estados com seus tratamentos.
+                        </p>
+                    </header>
+                    <div class="cards grid">
+                        <!-- Div 1 cards-->
+                        <div class="card">
+                            <i class="icon-dente"></i>
+                            <h3 class="title">Reabilitação/Geral</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloremque sequi repellendus aspernatur, quibusdam, excepturi id dolore deleniti vitae perspiciatis </p>
+                        </div>
+
+                        <!-- Div 2 cards-->
+                        <div class="card">
+                            <i class="icon-bracadeira"></i>
+                            <h3 class="title">Implantondontia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloremque sequi repellendus aspernatur, quibusdam, excepturi id dolore deleniti vitae perspiciatis </p>
+                        </div>
+
+                        <!-- Div 3 cards-->
+                        <div class="card">
+                            <i class="icon-pacote-de-dentista"></i>
+                            <h3 class="title">Enxertos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloremque sequi repellendus aspernatur, quibusdam, excepturi id dolore deleniti vitae perspiciatis </p>
+                        </div>
+
+                        <!-- fim dos cards-->
+                    </div>
+                </div>
+            </section>
+
+           
+            
+            <!-- seção depoimentos -->
+            
+            <div class="divider-2"></div>
+
+            <!-- seção contatos-->
+            <section id="contacts" class="section">
+                <div class="container grid">
+                    <div class="text">
+                        <h2 class="title">Entre em contato conosco</h2>
+                        <p>Queremos tirar suas duvidas, ouvir suas criticas e sujestões.
+                        </p>
+                        <a href=" https://api.whatsapp.com/send?phone=+55 69 99973-1490&text=OI! Gostaria de agendar um horario!" 
+                        target="_blank" 
+                        class="button">
+                            <i class="icon-whatsapp"></i>Entrar em contato
+                        </a>
+                    </div>
+
+                    <div class="links">
+                        <ul class="grid">
+                            <li><i class="icon-whatsapp"></i>+55 69 99973-1490</li>
+                            <li><i class="icon-map-pin"></i>Av. Gov. Jorge Teixeira, 3137 - sala 6 - Embratel, Porto Velho - RO, 76803-859</li>
+                            <li><i class="icon-mail"></i>lucaslbreaboral@gmail.com</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+              <div class="divider-1"></div>
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="section grid">
+            <div class="container grid">
+                <div class="brand">
+                    <a href="#home" class="logo-alt">Lucas<span>Barros</span></a>
+                    <p>Todos os direitos reservados</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/essence.odonto.preventiva/?hl=pt-br" target="_blank"><i class="icon-instagram" ></i></a>
+                    <a href="" target="_blank"><i class="icon-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#home" class="back-to-top"><i class="icon-arrow-up2"></i></a>
+
+        <!-- swiper -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- main -->
+        <script src="main.js"></script>
+
+    </body>
+</html>
